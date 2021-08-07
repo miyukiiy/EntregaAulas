@@ -8,23 +8,31 @@ final imprimir a média dos números múltiplos de 3. Para sair digitar
 public class Exercicio06 {
 
 	public static void main(String[] args) {
-		int numinteiro = 0, media=0;
+		
+		int numinteiro = 0, media=0, soma=0, x=0;
 		Scanner entrada = new Scanner(System.in);
 		
 		
 		do {
 			System.out.println("Digite um número: ");
 			numinteiro = entrada.nextInt();
+		
 			
+			if (numinteiro % 3 == 0) {
+				soma = soma + numinteiro;
+				x++;
+				
+				}
 			
-		}
-		while(media % 3 == 0 && numinteiro != 0);
-		media = numinteiro * media;
-
-			System.out.println(media);
 		}
 		
-
+		while(numinteiro != 0);
+		media = soma / x;
+		
+	
+		System.out.println("A média de número multiplo por 3 é: " + media);
+		
+	}
 	
 
 }
