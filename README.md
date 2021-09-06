@@ -1,6 +1,6 @@
 <h1>Bloco 1 - Concluído :trophy: </h1>
 
-<h1>Sobre </h1>
+<h2>Sobre </h2>
 <p> A Generation é um programa sem fins lucrativos de capacitação e inserção de jovens talentos no mercado de trabalho. <p>
 
 
